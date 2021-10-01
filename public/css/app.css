@@ -6364,7 +6364,7 @@ button.bg-dark:focus {
 
 .alleMerken a {
   text-decoration: none;
-  color: purple;
+  color: green;
 }
 
 footer {
@@ -6374,6 +6374,28 @@ footer {
   
 }
 
+.nextToEachOther {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.aboutUs {
+  width: 400px;
+  padding: 5px;
+}
+
+.contactInfo {
+  margin: 0 10px;
+}
+
+.contactInfo p {
+  margin-bottom: 0;
+}
+
+.socialLink {
+  display: flex;
+  flex-direction: column;
+}
 
 @media (min-width: 576px) {
   .d-sm-none {

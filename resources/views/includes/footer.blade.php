@@ -6,9 +6,28 @@
       
       <div class="col-md-8">
         © {{ __('misc.copyright') }}
+        
       </div>
+
+
     </div>
   </div>
+  <div class="nextToEachOther">
+          <div class="aboutUs">
+            <h2>Over ons</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum labore et laudantium cum! Accusantium aliquam porro quia amet quasi eum iusto ex blanditiis.</p>    
+          </div>
+          <div class="contactInfo">
+            <h2>Contact</h2>
+            <p>Email: loremipsum@gmail.com</p>
+            <p>Tel:   06-555-12345</p>
+          </div>
+          <div class="socialLink">
+            <h2>Social media</h2>
+            <a href="">Instagram</a>
+            <a href="">Twitter</a>
+            <a href="">LinkedIn</a>
+          </div>
 </footer>
 
 
