@@ -20,13 +20,15 @@
                        alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a></li>
                 @yield('breadcrumb')
             </ul>
+            <div class="alleMerken">
 
+            
             @if ( isset($_GET['q']) )
                 @include('includes.search_results')
             @else
                 @yield('content')
             @endif
-
+            </div>
             <ul class="breadcrumb">
                 <li>
 					<a href="/" title="{{ __('misc.home_alt') }}" alt="{{ __('misc.home_alt') }}">{{ __('misc.home') }}</a>
