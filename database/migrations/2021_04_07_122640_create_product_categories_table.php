@@ -18,6 +18,10 @@ class CreateProductCategoriesTable extends Migration
             $table->string('name');
             $table->timestamps();
         });
+
+        Schema::table('product_categories', function (Blueprint $table) {
+            $table->integer('numbers');
+        });
     }
 
     /**
