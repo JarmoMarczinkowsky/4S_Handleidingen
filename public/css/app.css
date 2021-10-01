@@ -6010,6 +6010,17 @@ a.close.disabled {
   text-align: center;
 }
 
+button.styleButton {
+  border-radius: 5px;
+  border: none;
+  background: var(--gray);
+  padding: 7px;
+}
+
+button.styleButton a {
+  color: white;
+}
+
 @-webkit-keyframes spinner-border {
   to {
     transform: rotate(360deg);

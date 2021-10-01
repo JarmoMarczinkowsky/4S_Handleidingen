@@ -21,6 +21,6 @@ return [
 'download_manual_alt' => "Download your manual here",
 'view_manual' => "Directly view your manual",
 'view_manual_alt' => "Directly view your manual",
-'all_brands' => "All brands",
+'all_brands' => "All brands", 
 
 ];

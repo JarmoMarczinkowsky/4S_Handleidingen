@@ -21,6 +21,7 @@
             <h2>Contact</h2>
             <p>Email: loremipsum@gmail.com</p>
             <p>Tel:   06-555-12345</p>
+            <p>Adres: ChristinaLaan 204</p>
           </div>
           <div class="socialLink">
             <h2>Social media</h2>
