@@ -10,6 +10,7 @@
 
 <p>{{ __('introduction_texts.type_list', ['brand'=>$brand->name]) }}</p>
 
+<div class="merkGrid">
     <div class="container">
 		<ul>
 		@foreach($types as $type)
@@ -19,5 +20,5 @@
 		@endforeach
 		</ul>
 	</div>
-
+</div>
 @stop

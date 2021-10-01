@@ -5080,6 +5080,13 @@ a.badge-dark:focus, a.badge-dark.focus {
   border-top-width: 1px;
 }
 
+.merkGrid .container ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-flow: dense;
+  gap: 20px;
+}
+
 .list-group-horizontal {
   flex-direction: row;
 }
