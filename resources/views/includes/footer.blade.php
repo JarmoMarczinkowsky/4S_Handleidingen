@@ -1,7 +1,13 @@
 
 <footer>
   <div class="container">
-    © {{ __('misc.copyright') }}
+    <div class="row">
+
+      
+      <div class="col-md-8">
+        © {{ __('misc.copyright') }}
+      </div>
+    </div>
   </div>
 </footer>
 
